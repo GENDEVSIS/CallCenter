@@ -8,7 +8,7 @@ $(document).ready(function(){
 		if(longitudusuario >= 3){
 		var dataString = 'usuario=' + usuario;
 			$.ajax({
-				url: 'verificausuario.php',
+				url: 'usuarios/verificausuario.php',
 				type: "GET",
 				data: dataString,
 				dataType: "JSON",
@@ -33,7 +33,7 @@ $(document).ready(function(){
 		if(longitudusuario >= 3){
 		var dataString = 'usuario=' + usuario;
 			$.ajax({
-				url: 'verificausuario.php',
+				url: 'usuarios/verificausuario.php',
 				type: "GET",
 				data: dataString,
 				dataType: "JSON",

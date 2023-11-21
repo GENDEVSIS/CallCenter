@@ -1,6 +1,6 @@
 
 <?php
-include('conexion.php');
+include('../conexion.php');
 $con=conexionmysql();
 $usuario    = $_REQUEST['usuario'];
 
